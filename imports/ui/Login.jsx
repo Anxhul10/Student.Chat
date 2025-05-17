@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-export const NavBar = ()=>{
+export const Login = ()=>{
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
