@@ -1,0 +1,11 @@
+name: issue title checker
+on:
+  issues:
+jobs:
+  first-job:
+    name: testing issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello
+        run: echo "hello form first job"
+
