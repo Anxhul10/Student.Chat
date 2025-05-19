@@ -9,6 +9,7 @@ on:
       - unlabeled
 jobs:
   title-checker:
+    permissions: write-all
     name: title checker
     runs-on: ubuntu-latest
     steps:
