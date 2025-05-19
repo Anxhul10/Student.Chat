@@ -1,16 +1,16 @@
-- any:
-  - changed-files:
-    - any-glob-to-any-file: ['list', 'of', 'globs']
-    - any-glob-to-all-files: ['list', 'of', 'globs']
-    - all-globs-to-any-file: ['list', 'of', 'globs']
-    - all-globs-to-all-files: ['list', 'of', 'globs']
-  - base-branch: ['list', 'of', 'regexps']
-  - head-branch: ['list', 'of', 'regexps']
-- all:
-  - changed-files:
-    - any-glob-to-any-file: ['list', 'of', 'globs']
-    - any-glob-to-all-files: ['list', 'of', 'globs']
-    - all-globs-to-any-file: ['list', 'of', 'globs']
-    - all-globs-to-all-files: ['list', 'of', 'globs']
-  - base-branch: ['list', 'of', 'regexps']
-  - head-branch: ['list', 'of', 'regexps']
+# - any:
+#   - changed-files:
+#     - any-glob-to-any-file: ['list', 'of', 'globs']
+#     - any-glob-to-all-files: ['list', 'of', 'globs']
+#     - all-globs-to-any-file: ['list', 'of', 'globs']
+#     - all-globs-to-all-files: ['list', 'of', 'globs']
+#   - base-branch: ['list', 'of', 'regexps']
+#   - head-branch: ['list', 'of', 'regexps']
+# - all:
+#   - changed-files:
+#     - any-glob-to-any-file: ['list', 'of', 'globs']
+#     - any-glob-to-all-files: ['list', 'of', 'globs']
+#     - all-globs-to-any-file: ['list', 'of', 'globs']
+#     - all-globs-to-all-files: ['list', 'of', 'globs']
+#   - base-branch: ['list', 'of', 'regexps']
+#   - head-branch: ['list', 'of', 'regexps']
