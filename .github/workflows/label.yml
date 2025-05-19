@@ -17,6 +17,9 @@ jobs:
       pull-requests: write
 
     steps:
+    - name: clone the repo
+    - uses: actions/checkout@v4
+    - name: label prs
     - uses: actions/labeler@v4
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
